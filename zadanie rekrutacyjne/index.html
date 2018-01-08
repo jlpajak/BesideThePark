@@ -10,8 +10,29 @@
   <body>
     <header>
       <h1>Beside the park</h1>
-      <img src="./web/Web_0000_Menu.png" alt="menu" class="button menu-button">
-      <img src="./web/Web_0001_Search.png" alt="search icon" class="button search-button">
+      <ul>
+        <li>
+          <img src="./web/Web_0001_Search.png" alt="search icon" class="button search-button">
+          <ul>
+            <li>
+              <div class="search-bar">
+                <form action="./search" method="get">
+                  <input type="text" value="" name="q" id="q">
+                </form>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#"><img src="./web/Web_0000_Menu.png" alt="menu" class="button menu-button"></a>
+          <ul>
+            <li><a href="#">Find Out more</a></li>
+            <li><a href="#">Our clients</a></li>
+            <li><a href="#">Get insights</a></li>
+            <li><a href="#">Get Started Now</a></li>
+          </ul>
+        </li>
+      </ul>
     </header>
     <section class="hero">
       <div class="slogan">

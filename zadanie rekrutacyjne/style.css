@@ -146,7 +146,7 @@ header li:hover ul {
 }
 
 .container p {
-  color: #ccc;
+  color: #ccc;1200px
   margin: 1em 0;
 }
 
@@ -222,6 +222,12 @@ header li:hover ul {
 @media only screen and (min-width: 1200px) {
   .slogan{
     margin-left: calc(50% - 600px);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .text-content {
+    padding: 0 20px;
   }
 }
 

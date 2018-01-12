@@ -25,10 +25,10 @@ h1 {
 }
 
 header h1 {
-  color: lightgreen;
+  color: #99d75b;
   display: inline-block;
   text-align: center;
-  padding-left: calc(50vw - 135px);
+  padding-left: calc(50vw - 160px);
 }
 
 header img {
@@ -94,14 +94,11 @@ header li:hover ul {
   left: 0;
 }
 
-header .search-bar {
-  height: 50px;
-  line-height: 50px;
-  padding: 0 10px;
-  width: 300px;
-  transition-duration: 2s;
-  display: block;
-  background: rgba(255, 255, 255, 0.5);
+#search-bar {
+  background: none;
+  line-height: 20px;
+  border: none;
+  padding-top: 20px;
 }
 
 .hero {
@@ -240,5 +237,8 @@ header .search-bar {
   }
   header li {
     display: none;
+  }
+  .text-content {
+    padding: 0 20px;
   }
 }
